@@ -1,0 +1,118 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 28px;
+}
+
+@media (max-width: 1600px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 12px;
+    }
+
+}
+
+body {
+    background: rebeccapurple;
+}
+
+.flex-box {
+    display: flex;
+    margin: 4rem auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    width: 22rem;
+    border: 1px solid black;
+    background: teal;
+    padding: 1rem 1.5rem;
+}
+
+@media (max-width: 848px) {
+    .flex-box {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+.contents {
+    background: white;
+}
+
+h1 {
+    font-size: 0.929rem;
+    margin: 0 0 1rem;
+}
+
+h2 {
+    font-size: 0.857rem;
+    margin: 0 0 0.9rem;
+}
+
+h3 {
+    font-size: 0.786rem;
+    margin: 0 0 0.8rem;
+}
+
+h4 {
+    font-size: 0.714rem;
+    margin: 0 0 0.7rem;
+}
+
+h5 {
+    font-size: 0.643rem;
+    margin: 0 0 0.6rem;
+}
+
+h6 {
+    font-size: 0.57rem;
+    margin: 0 0 0.5rem;
+}
+
+.para1 {
+    font-size: 0.571rem;
+    margin: 0 0 0.4rem;
+}
+
+.para2 {
+    font-size: 0.429rem;
+    margin: 0 0 0.3rem;
+}
